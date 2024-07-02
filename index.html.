@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .profile {
+            margin: 50px auto;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .profile h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .profile p {
+            font-size: 16px;
+            color: #666;
+        }
+        .links a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .links a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="https://media.licdn.com/dms/image/C5103AQGAV_Fc5S7fIA/profile-displayphoto-shrink_800_800/0/1517442461655?e=1725494400&v=beta&t=T-gAfYh9PBXU3a3BiJpZgVFZFvPAR9B8aGB1dCzAUgo" alt="Foto Profil">
+        <h1>Agustinus Herwanjar</h1>
+        <p>Logat itu Identitas.</p>
+        <div class="links">
+            <a href="https://facebook.com/agustinusherwanjar" target="_blank">Facebook</a>
+            <a href="https://t.me/agustinus_herwanjar" target="_blank">Telegram</a>
+            <a href="https://instagram.com/agustinus.herwanjar" target="_blank">Instagram</a>
+            <a href="https://linkedin.com/in/agustinus-herwanjar" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+</body>
+</html>
